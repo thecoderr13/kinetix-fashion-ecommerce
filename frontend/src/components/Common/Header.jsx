@@ -1,14 +1,16 @@
 import React from 'react'
 import Topbar from '../Layouts/Topbar'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <div>
+    <header>
         {/* Topbar */}
         <Topbar />
         {/* Navbar */}
+        <Navbar />
         {/* CartDrawer */}
-    </div>
+    </header>
   )
 }
 

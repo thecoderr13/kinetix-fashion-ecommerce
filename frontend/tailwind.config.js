@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "kinetix-red": "ea2e0e",
+        "kinetix-red": "#ea2e0e",
       },
     },
   },
