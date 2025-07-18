@@ -1,0 +1,99 @@
+# Root-level dependencies
+/node_modules
+/.env
+.env.local
+.env.development
+.env.test
+.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+logfile
+npm-debug.log*
+
+# Debugger
+.vscode/
+
+# Build output
+/dist
+/build
+
+# Optional NPM cache directory
+.npm
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Client-side (React/Vite or CRA)
+client/node_modules
+client/build
+client/dist
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+client/.env.test
+client/.DS_Store
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+client/.next
+client/.turbo
+
+# Server-side (Express/Node)
+server/node_modules
+server/.env
+server/.env.local
+server/.env.development
+server/.env.production
+server/.env.test
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/pnpm-debug.log*
+server/uploads/
+server/coverage/
+
+# MongoDB dump files
+*.mongodb
+*.bak
+
+# Ignore generated SSL certs (if any)
+*.pem
+*.crt
+*.key
+
+# Ignore file uploads (optional - depends on your project)
+uploads/
+tmp/
+public/uploads/
+
+# Ignore Docker artifacts (optional)
+docker-compose.override.yml
+docker-compose.debug.yml
+Dockerfile.*
+.docker/
+
+# Ignore IDE-specific files
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Ignore test snapshots (optional)
+__snapshots__/
